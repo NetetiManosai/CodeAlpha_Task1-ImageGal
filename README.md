@@ -18,7 +18,7 @@ The Image Gallery is a fully responsive, modern photo gallery built with **HTML*
 
 ---
 
-## 🧠 Implementations
+## 🧠 Bonus Implementations
 
 - 🔹 **Image Filters/Categories for better sorting**
 - 🔹 **Zoom effect on hover**
