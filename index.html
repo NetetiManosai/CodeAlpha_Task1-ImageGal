@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Image Gallery</h1>
+  <div class="filter-buttons">
+    <button class="filter-btn active" data-category="all">All</button>
+    <button class="filter-btn" data-category="nature">Nature</button>
+    <button class="filter-btn" data-category="city">City</button>
+    <button class="filter-btn" data-category="animals">Animals</button>
+  </div>
+  <div class="gallery" id="gallery">
+    <div class="gallery-item" data-category="nature">
+      <img src="photo-beach.jpeg" alt="Beach">
+      <div class="caption">Tropical Beach</div>
+    </div>
+    <div class="gallery-item" data-category="city">
+      <img src="downtown.jpeg" alt="Cityscape">
+      <div class="caption">Urban Skyline</div>
+    </div>
+    <div class="gallery-item" data-category="animals">
+      <img src="Deer.jpeg" alt="Deer">
+      <div class="caption">Majestic Deer</div>
+    </div>
+    <div class="gallery-item" data-category="nature">
+      <img src="forest.jpg" alt="Forest">
+      <div class="caption">Lush Forest</div>
+    </div>
+    <div class="gallery-item" data-category="city">
+      <img src="cityscape.avif" alt="Downtown">
+      <div class="caption">City Lights</div>
+    </div>
+    <div class="gallery-item" data-category="animals">
+      <img src="cat.jpeg" alt="Cat">
+      <div class="caption">Curious Cat</div>
+    </div>
+  </div>
+  <div class="lightbox" id="lightbox">
+    <button class="close" onclick="closeLightbox()">X</button>
+    <button class="lightbox-nav prev" onclick="changeImage(-1)">❮</button>
+    <img id="lightbox-img" src="" alt="Lightbox Image">
+    <div class="lightbox-caption" id="lightbox-caption"></div>
+    <button class="lightbox-nav next" onclick="changeImage(1)">❯</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
