@@ -1,6 +1,6 @@
 # 🖼️ CodeAlpha Task1- Image Gallery Project
 
-This is my submission for **Task 1: Image Gallery** as part of the **Frontend Development Internship at CodeAlpha**.
+Welcome to my submission for **Task 1: Building an Image Gallery** as part of the **Frontend Development Internship at CodeAlpha**.
 
 ## 📸 Project Description
 
